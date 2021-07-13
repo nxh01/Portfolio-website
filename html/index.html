@@ -1,0 +1,678 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+
+
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+
+    <!--==================== AOS CSS ====================-->
+    <link rel="stylesheet" href="../css/aos.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Nisi</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-layers nav__icon"></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="uil uil-usd-circle nav__icon"></i></i>Service
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="uil uil-bag nav__icon"></i>Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-envelope-minus nav__icon"></i>Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close" data-aos="zoom-in-up" data-aos-duration="1100"></i>
+            </div>
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps nav__collaps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+
+                    <div class="home__data">
+                        <h1 class="home__title" data-aos="zoom-in-up" data-aos-duration="1100">
+                            <span id="home__text"></span>
+                            <div id='console'>&#95;</div>
+                        </h1>
+                        <h3 class="home__subtitile" data-aos="zoom-in-up" data-aos-duration="1100">
+                            Developer
+                        </h3>
+                        <p class="home__description" data-aos="zoom-in-up" data-aos-duration="1100">High level of
+                            experience in frontend, I'm
+                            <br> developing quality
+                            websites so your <br> corporation can be unique.
+                        </p>
+                        <a href="#contact" class="button button--flex" data-aos="zoom-in-up" data-aos-duration="1100">
+                            <button class="home__btncontact">Contact me<svg class="arrow__right_contact" width="15"
+                                    height="10" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M24.605 12.2142L7.94119 0.806236C7.17163 0.279026 6.39623 0 5.75173 0C4.50571 0 3.73492 1.00002 3.73492 2.67394V27.33C3.73492 29.0019 4.50473 30 5.74784 30C6.39332 30 7.15633 29.7207 7.9276 29.1921L24.5992 17.7843C25.6713 17.0495 26.2651 16.0606 26.2651 14.9987C26.2653 13.9374 25.6784 12.9488 24.605 12.2142Z"
+                                        fill="white" />
+                                </svg>
+                            </button></i></a>
+                    </div>
+                    <div class="home__img" data-aos="zoom-in-up" data-aos-duration="1100">
+                        <svg class="home__svghello" width="250" height="300" viewBox="0 0 263 349" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M47.3735 128.765C48.418 127.8 49.6614 127.075 51.016 126.643C52.3705 126.21 53.8034 126.08 55.2137 126.261C56.624 126.443 57.9773 126.932 59.1784 127.693C60.3795 128.455 61.3991 129.471 62.1655 130.67L84.0481 126.776L89.6557 139.507L58.676 144.571C56.5786 145.726 54.1307 146.071 51.7962 145.541C49.4617 145.01 47.4028 143.641 46.0097 141.693C44.6165 139.744 43.9858 137.352 44.2372 134.97C44.4885 132.587 45.6045 130.379 47.3735 128.765V128.765Z"
+                                fill="#FFB6B6" />
+                            <path
+                                d="M67.6335 145.021L90.4466 144.737L93.3344 144.698L139.749 144.112C139.749 144.112 152.353 132.078 163.328 119.688L161.79 108.553C160.289 97.6252 154.872 87.6149 146.547 80.3853C130.828 90.8969 121.713 111.703 121.713 111.703L92.9343 118.592L90.0552 119.281L72.1735 123.557L67.6335 145.021Z"
+                                fill="#6C63FF" />
+                            <path
+                                d="M184.417 213.463H141.833C141.833 215.289 95.2835 216.771 95.2835 216.771C94.2566 217.545 93.3208 218.433 92.4938 219.418C90.0089 222.384 88.6507 226.133 88.659 230.003V232.65C88.6606 237.036 90.4023 241.242 93.5015 244.344C96.6006 247.445 100.803 249.189 105.186 249.19H184.417C188.799 249.186 193 247.443 196.099 244.341C199.198 241.24 200.94 237.035 200.944 232.65V230.003C200.938 225.618 199.195 221.415 196.096 218.314C192.998 215.214 188.798 213.469 184.417 213.463V213.463Z"
+                                fill="#E4E4E4" />
+                            <path d="M153.45 248.533H136.261V347.824H153.45V248.533Z" fill="#E4E4E4" />
+                            <path
+                                d="M87.3405 347.219C87.3405 349.078 113.387 347.938 145.517 347.938C177.647 347.938 203.693 349.078 203.693 347.219C203.693 345.361 177.647 330.622 145.517 330.622C113.387 330.622 87.3405 345.361 87.3405 347.219Z"
+                                fill="#E4E4E4" />
+                            <path d="M75.7943 335.874L63.002 335.874L56.9164 286.493L75.796 286.494L75.7943 335.874Z"
+                                fill="#FFB6B6" />
+                            <path
+                                d="M79.0567 348.284L37.8088 348.283V347.761C37.8091 343.499 39.5007 339.413 42.5116 336.4C45.5224 333.386 49.6057 331.694 53.8636 331.693H53.8647L79.0574 331.694L79.0567 348.284Z"
+                                fill="#2F2E41" />
+                            <path d="M37.9857 335.874L25.1933 335.874L19.1077 286.493L37.9874 286.494L37.9857 335.874Z"
+                                fill="#FFB6B6" />
+                            <path
+                                d="M41.2478 348.284L0 348.283V347.761C0.000299762 343.499 1.69191 339.413 4.70271 336.4C7.71351 333.386 11.7969 331.694 16.0548 331.693H16.0558L41.2486 331.694L41.2478 348.284Z"
+                                fill="#2F2E41" />
+                            <path
+                                d="M152.576 51.5843C164.86 51.5843 174.818 41.6183 174.818 29.3245C174.818 17.0308 164.86 7.0647 152.576 7.0647C140.292 7.0647 130.334 17.0308 130.334 29.3245C130.334 41.6183 140.292 51.5843 152.576 51.5843Z"
+                                fill="#FFB6B6" />
+                            <path
+                                d="M188.575 181.84C188.575 181.84 196.038 221.334 167.643 226.364C139.247 231.393 98.2578 234.928 98.2578 234.928L79.8508 320.875L55.1213 318.666C55.1213 318.666 58.4103 215.204 66.4983 207.109C74.5864 199.015 125.706 174.778 125.706 174.778L188.575 181.84Z"
+                                fill="#2F2E41" />
+                            <path
+                                d="M133.117 165.288L120.698 177.756C120.698 177.756 31.0271 192.211 27.5678 212.939C22.3451 244.232 16.1763 312.282 16.1763 312.282L43.1366 310.258L53.7089 232.904L96.8456 223.084L145.923 196.317L133.117 165.288Z"
+                                fill="#2F2E41" />
+                            <path
+                                d="M173.98 16.0371C171.784 11.8912 168.994 3.62853 164.563 2.09612C162.101 1.27943 159.558 0.737136 156.978 0.479076L149.445 3.37852L153.545 0.187534C152.747 0.139943 151.949 0.101037 151.152 0.0708195L146.069 2.02709L148.669 0.00312832C143.931 -0.0455409 139.04 0.447515 135.369 3.33423C132.239 5.79515 129.138 15.1176 128.637 19.0692C128.101 22.8495 128.288 26.6973 129.19 30.4074L130.477 31.6322C130.927 30.5991 131.265 29.5207 131.486 28.4154C131.948 26.3503 132.834 24.404 134.089 22.7007C135.343 20.9973 136.939 19.5742 138.773 18.522L138.843 18.4824C141.002 17.2666 143.621 17.3226 146.097 17.4118L157.854 17.8352C160.683 17.9371 163.729 18.1162 165.934 19.8919C167.336 21.2019 168.438 22.7996 169.165 24.5756C170.26 26.789 172.402 35.1375 172.402 35.1375C172.402 35.1375 173.613 33.5616 174.194 34.7345C175.125 31.6743 175.691 28.5145 175.88 25.3212C176.066 22.1136 175.41 18.9132 173.98 16.0371V16.0371Z"
+                                fill="#2F2E41" />
+                            <path class="hand__svg"
+                                d="M251.773 39.0999C250.354 39.1934 248.973 39.5971 247.727 40.2826C246.481 40.9681 245.4 41.9186 244.561 43.0673C243.722 44.216 243.145 45.5349 242.87 46.931C242.595 48.3272 242.629 49.7667 242.97 51.1481L225.084 64.3522L230.451 77.1872L255.448 58.1854C257.729 57.458 259.664 55.9185 260.886 53.8587C262.109 51.7988 262.534 49.3617 262.081 47.0092C261.628 44.6567 260.329 42.5521 258.429 41.0944C256.529 39.6367 254.161 38.927 251.773 39.0999V39.0999Z"
+                                fill="#FFB6B6" />
+                            <path class="handright__svg"
+                                d="M248.895 66.0561L204.056 115.894C204.056 115.894 182.613 109.024 166.03 101.576L158.58 78.6762C156.85 73.3637 156.111 67.778 156.402 62.198C179.391 56.0758 206.13 78.8557 206.13 78.8557L239.694 52.5445L248.895 66.0561Z"
+                                fill="#6C63FF" />
+                            <path
+                                d="M144.268 185.521C136.269 182.756 127.997 179.896 119.074 178.822L118.691 178.776L118.797 178.405C128.033 145.95 125.728 125.188 121.202 94.0021C120.239 87.2753 121.476 80.4172 124.728 74.4516C127.979 68.486 133.071 63.7328 139.244 60.9013L139.299 60.8765L164.782 59.256L164.84 59.2524L183.373 64.7075C186.039 65.4981 188.373 67.1417 190.016 69.3864C191.66 71.6311 192.523 74.3532 192.473 77.1355C192.272 87.3918 192.698 98.8425 193.148 110.965C194.16 138.162 195.206 166.285 189.271 184.532L189.24 184.628L189.161 184.69C183.705 189.136 176.871 191.539 169.835 191.484C161.516 191.484 153.027 188.549 144.268 185.521Z"
+                                fill="#6C63FF" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="home__scroll" data-aos="zoom-in-up" data-aos-duration="1100">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt homedown__scrollmouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down homedown__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title" data-aos="zoom-in" data-aos-duration="900">
+                About Me
+            </h2>
+            <span class="section__subtitile" data-aos="zoom-in" data-aos-duration="900">My introduction</span>
+            <div class="about__container container grid">
+                <img class="aboutme__svg" src="../Resouces SVG/about me.svg" data-aos="zoom-in-right"
+                    data-aos-duration="900" alt="">
+                <div class="about__data" data-aos="zoom-in-left" data-aos-duration="900">
+                    <p class="about__description">
+                        Frontend web developer, with 4 years <br> of professional experience, 15 <br> completed
+                        projects which you can <br> find in GitHub, and
+                        worked for more <br> than 2 big companies.
+                    </p>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">4+</span>
+                            <span class="about__info-name">Years of <br> experience</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">15+</span>
+                            <span class="about__info-name">Completed <br> projects</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">2+</span>
+                            <span class="about__info-name">Companies <br>worked</span>
+                        </div>
+                    </div>
+                    <div class="about__buttons">
+                        <a download="" href="../Cv/CV.pdf" class="button button--flex">
+                            <button class="about__cvbutton">
+                                Download CV <i class="uil uil-file-download download__cv"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title" data-aos="zoom-in" data-aos-duration="900">Skills</h2>
+            <span class="section__subtitile" data-aos="zoom-in" data-aos-duration="900">My technical level</span>
+            <div class="skills__container container grid" data-aos="zoom-in" data-aos-duration="900">
+                <div>
+                    <!--==================== SKILLS 1====================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Frontend developer</h1>
+                                <span class="skills__subtitle">More than 4 years</span>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">40%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Scss</h3>
+                                    <span class="skills__number">15%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__scss"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <!--==================== SKILLS 2====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-server-network skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title">Backend developer</h1>
+                                    <span class="skills__subtitle">Just started</span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__number">48%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__python"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">PHP</h3>
+                                        <span class="skills__number">5%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__php"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Java</h3>
+                                        <span class="skills__number">24%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__java"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <!--==================== SKILLS 3 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-palette skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Designing</h1>
+                                    <span class="skills__subtitle">More than 2 years</span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Photoshop</h3>
+                                        <span class="skills__number">100%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__photoshop"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Illustrator</h3>
+                                        <span class="skills__number">48%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__illustrator"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Figma</h3>
+                                        <span class="skills__number">33%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__figma"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <!--==================== SKILLS 4 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-cog skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title">Software engineering</h1>
+                                    <span class="skills__subtitle">More than 5 years</span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">C#</h3>
+                                        <span class="skills__number">89%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__csharp"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Visual Basics.NET</h3>
+                                        <span class="skills__number">55%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__vbnet"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Kotlin</h3>
+                                        <span class="skills__number">28%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__kotlin"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title" data-aos="zoom-in" data-aos-duration="900">Service</h2>
+            <span class="section__subtitile" data-aos="zoom-in" data-aos-duration="900">My offers</span>
+
+            <div class="services__container container grid">
+                <!--==================== SERVICES 1 ====================-->
+                <div class="services__content" data-aos="zoom-in-right" data-aos-duration="900">
+                    <div>
+                        <i class="uil uil-crop-alt services__icon"></i>
+                        <h3 class="services__title">Ui - Ux <br> Design</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button services__viewmore">
+                        View More<i class="uil uil-angle-right services__icon"></i>
+                    </span>
+                    <div class="div services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Ui - Ux <br>
+                                Design</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Conduct user research</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>User Interface Design (UI Design)</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>User Experience (UX)</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Graphic Design</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--==================== SERVICES 2 ====================-->
+                <div class="services__content" data-aos="zoom-in" data-aos-duration="900">
+                    <div>
+                        <i class="uil uil-brackets-curly services__icon"></i>
+                        <h3 class="services__title">Frontend <br> Developing</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button services__viewmore">
+                        View More<i class="uil uil-angle-right services__icon"></i>
+                    </span>
+                    <div class="div services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Frontend <br> Developing</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Using HTML, JavaScript and CSS to bring concepts to life.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>mplementing design on mobile websites.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Creating tools that improve site interaction</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Fixing bugs and testing for usability.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--==================== SERVICES 3 ====================-->
+                <div class="services__content" data-aos="zoom-in-left" data-aos-duration="900">
+                    <div>
+                        <i class="uil uil-cog services__icon"></i>
+                        <h3 class="services__title">Software <br>
+                            Engineering</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button services__viewmore">
+                        View More<i class="uil uil-angle-right services__icon"></i>
+                    </span>
+                    <div class="div services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Software <br>
+                                Engineering</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Design, implement, test and maintain logic and components.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Consistently improve maintainability and stability of the codebase.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Design and build systems with automated instrumentation and monitoring.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Build reusable code and libraries for future use.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Projects ====================-->
+        <section class="project section" id="projects" data-aos="fade-up" data-aos-duration="900">
+            <h2 class="section__title" data-aos="zoom-in" data-aos-duration="900">Projects</h2>
+            <div class="projects__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== Project 1 ====================-->
+                    <div class="projects__content grid swiper-slide">
+                        <img src="../projects/directwatch.png" alt="" class="projects__img">
+                        <div class="projects__data">
+                            <h3 class="projects__title">DirectWatch</h3>
+                            <p class="projects__description">This is my project, created <br> for any movie, anime,
+                                sport <br> etc with a cheat service. <br>
+                                Ads free.</p>
+                            <a href="http://127.0.0.1:5500/index.html" target="_blank"
+                                class="button button--flex button--small projects__button">
+                                View<i class="uil uil-angle-right projects__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Project 2 ====================-->
+                    <div class="projects__content grid swiper-slide">
+                        <img src="../projects/architect.png" alt="" class="projects__img">
+
+                        <div class="projects__data">
+                            <h3 class="projects__title">Architect</h3>
+                            <p class="projects__description">This is a website created <br> for an architect, <br>
+                                professional Ui/Ux design. <br> All responsive, extremely fast. <br> </p>
+                            <a href="http://127.0.0.1:5502/index.html"
+                                class="button button--flex button--small projects__button" target="_blank">
+                                View<i class="uil uil-angle-right projects__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right swiper-projects-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-projects-icon"></i>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- TEST -->
+        <section class="contact section">
+
+        </section>
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title contact__title" data-aos="zoom-in" data-aos-duration="900">Contact</h2>
+            <div class="div contact__container container">
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            data-aos-duration="900">
+                            <input class="contact__input" type="email" name="email" placeholder="Email" id="Email">
+                        </div>
+                        <div class="contact__content" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            data-aos-duration="900">
+                            <input class="contact__input" type="text" name="name" placeholder="Name" id="Name">
+                        </div>
+                    </div>
+                    <div class="contact__content" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                        data-aos-duration="900">
+                        <input class="contact__input" type="text" name="subject" placeholder="Subject" id="Subject">
+                    </div>
+                    <div class="contact__content" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                        data-aos-duration="900">
+                        <textarea name="message" id="" cols="0" rows="7" placeholder="Message"
+                            class="contact__input"></textarea>
+                    </div>
+                    <div class="contact__butonflex" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                        data-aos-duration="900">
+                        <a href="" id="submit" class="button button--flex contact__button">
+                            Send Message<i class="uil uil-message contact__icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== End ====================-->
+    <footer class="footer">
+        <div class="footer__bg" data-aos="fade-up" ata-aos-anchor-placement="top-bottom" data-aos-duration="900">
+            <div class="footer__container container grid">
+                <div>
+                    <span class="footer__subtitle">&#169; 2021 Nisi. All rights reserved</span>
+                </div>
+                <div>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#contact" class="footer__link">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="footer__link">Service</a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="footer__link">Skills</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="footer__socials">
+                        <a href="https://github.com/" target="_blank">
+                            <i class="uil uil-github footer__icon"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class="uil uil-instagram footer__icon"></i>
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="uil uil-facebook-f footer__icon"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank">
+                            <i class="uil uil-linkedin-alt footer__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#home" id="scroll-up" class="scrollup"><i class="uil uil-angle-up scrollup__icon"></i></a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="../js/swiper-bundle.min.js"></script>
+
+    <!--==================== AOS JS ====================-->
+    <script src="../js/aos.js"></script>
+
+    <!--==================== CONTACT JS ====================-->
+    <script src="../js/contact.js"></script>
+
+    <!--==================== EMAILJS ====================-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_wtY4SCgalqqv6CYvn4Axg");
+        })();
+    </script>
+    <!--====================TITLE JS====================-->
+    <script src="../js/title.js"></script>
+
+
+    <script src="../js/app.js"></script>
+
+</body>
+
+</html>
